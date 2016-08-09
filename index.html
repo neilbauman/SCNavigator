@@ -1,17 +1,74 @@
-<html>
-    <head>
-        <title>FactSheet Dashboard 1</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-              
-    </head>
-<body>  
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    
+    
+    <title>Shelter Cluster Navigator Home</title>
+    
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+  
+    
+    
+    <script>
+  $( function() {
+    $( ".widget input[type=submit], .widget a, .widget button" ).button();
+    $( "button, input, a" ).click( function( event ) {
+      event.preventDefault();
+    } );
+  } );
+  </script>
+    
+<script>
+openNewWindow = function()
+{
+ window.open(url, "_blank");
+};
+</script>
+    
+    
+</head>
+  
+    
 
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.25/vue.min.js"></script>
-<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-
-<style type="text/css">
-</style>
+    
+    
+    
+    
+    
+    
+    
+    
+<body>
+    
+    
+    
+    
+<div class="widget">
+  <h1>Response Setup</h1>
+    
+    
+    <a href="//formNewResponse.html" target="_"><input 
+type="button" value="Click Me"/></a>
+    
+    
+  <button>A button element</button>
+ 
+  <input type="submit" value="A submit button">
+ 
+  <a href="#">An anchor</a>
+</div>
+<h1>CSS Buttons</h1>
+<button class="ui-button ui-widget ui-corner-all">A button element</button>
+ 
+<input class="ui-button ui-widget ui-corner-all" type="submit" value="A submit button">
+ 
+<a class="ui-button ui-widget ui-corner-all" href="#">An anchor</a>
+ 
+ 
+</body>
+</html>
